@@ -19,9 +19,8 @@ Instructor: [Charles Lanfear](mailto:clanfear@uw.edu)
 [Savery 255](https://www.washington.edu/maps/#!/sav): `office_day` TBA
 
 ## Overview
-This course is intended to build practical skills in conducting quantitative 
-analyses using programming and statistics. This knowledge is intended to be broadly useful wherever
-you encounter data in your education and career. General topics we will focus on include:
+This course is intended as an accessible, holistic introduction to quantitative 
+data analysis using programming and statistics. General topics we will focus on include:
 
 * Cleaning and preparing data for analyses
 * Exploring data with graphics and summaries
@@ -29,11 +28,21 @@ you encounter data in your education and career. General topics we will focus on
 * Communicating findings visually and verbally
 
 By the end of this course you should feel *confident* conducting basic quantitative
-research. While it focuses on the R programming language, the programming concepts you learn will be 
-applicable to other programming languages and research in general, such as logic, 
-algorithmic thinking, and project management. The statistical component of the class
+research. The statistical component of the class
 focuses on applying two statistical techniques---linear regression and randomization---to a wide 
-range of common empirical questions.
+range of common empirical questions. While the programming component focuses on the R language, the concepts you learn will be 
+applicable to other programming languages and research in general, such as logic, 
+algorithmic thinking, and project management. 
+
+> This course is based on combining two simple and modern approaches to inference in data science and (computational) statistics:
+>
+> 1. (Almost) everything is a linear model as described elegantly by [Lindeløv](https://lindeloev.github.io/tests-as-linear/)
+> 2. There is only one (statistical) test by [Allen Downey](http://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html)
+> 
+> The idea here is we can leverage computing to teach students a flexible, general
+> approach to answering empirical questions just using variations on linear models
+> and computing uncertainty with simulation and resampling. Students will learn core statistical
+> concepts deeply and intuitively rather than be buried under small details.
 
 ### Prerequisites
 No specific courses are required and I anticipate this will be the first course in 
@@ -195,8 +204,10 @@ R or RStudio in office hours or over email or Slack.
 
 ## Course Outline
 
-> This course outline is preliminary and based on a schedule with two lectures and a
-> lab each week. Lectures will cover both statistical topics and topics in R programming.
+> This course outline is preliminary and based on a schedule with two ~80 minute lectures and an
+> 50-minute lab each week. Lectures will cover both statistical topics and topics in R programming.
+> Programming content covered is equivalent to the first half of my 1 credit R course.
+> Statistical content will focus on the linear model as general approach.
 > Labs will be used to apply concepts from both in a collaborative environment using
 > a mix of live coding, student-directed questions, and structured exercises.
 
