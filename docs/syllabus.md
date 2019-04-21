@@ -42,7 +42,8 @@ algorithmic thinking, and project management.
 > The idea here is we can leverage computing to teach students a flexible, general
 > approach to answering empirical questions just using variations on linear models
 > and computing uncertainty with simulation and resampling. Students will learn core statistical
-> concepts deeply and intuitively rather than be buried under small details.
+> concepts deeply and intuitively rather than be buried under small details. This
+> approach appears to be similar to that of [Cobb](https://escholarship.org/uc/item/6hb3k0nz).
 
 ### Prerequisites
 No specific courses are required and I anticipate this will be the first course in 
