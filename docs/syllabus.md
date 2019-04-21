@@ -8,15 +8,15 @@ Instructor: [Charles Lanfear](mailto:clanfear@uw.edu)
 ## Class Locations
 **Lecture**
 
-[Savery 117](https://www.washington.edu/maps/#!/sav): Wednesdays 3:30-5:20
+[`lecture_room`](https://www.washington.edu/maps/#!/sav): `lecture_day` `lecture_start`-`lecture_end`
 
-**Lab (Optional but highly recommended)**
+**Lab**
 
-[Savery 117](https://www.washington.edu/maps/#!/sav): Mondays 3:30-5:20
+[`lab_room`](https://www.washington.edu/maps/#!/sav): `lab_day` `lab_start`-`lab_end`
 
 **My Office**
 
-[Savery 255](https://www.washington.edu/maps/#!/sav): By appointment
+[Savery 255](https://www.washington.edu/maps/#!/sav): `office_day` TBA
 
 ## Overview
 This course is intended to build practical skills in conducting quantitative 
@@ -28,10 +28,12 @@ you encounter data in your education and career. General topics we will focus on
 * Drawing conclusions from data using statistics
 * Communicating findings visually and verbally
 
-By the end of this course you should feel *confident* approaching any data you encounter
-in the future. While it focuses on the R programming language, the programming concepts you learn will be 
+By the end of this course you should feel *confident* conducting basic quantitative
+research. While it focuses on the R programming language, the programming concepts you learn will be 
 applicable to other programming languages and research in general, such as logic, 
-algorithmic thinking, and project management.
+algorithmic thinking, and project management. The statistical component of the class
+focuses on applying two statistical techniques---linear regression and randomization---to a wide 
+range of common empirical questions.
 
 ### Prerequisites
 No specific courses are required and I anticipate this will be the first course in 
@@ -49,8 +51,8 @@ code, and assignments. It will be updated continually throughout the quarter, an
 available after the term has ended as a reference.
 
 ### Labs
-Labs are in [Savery 117](https://www.washington.edu/maps/#!/sav)
-on `lab_day` from `start_time` to `end_time`. Lab will consist of working through
+Labs are in [`lab_room`](https://www.washington.edu/maps/#!/sav)
+on `lab_day` from `lab_start` to `lab_end`. Labs will consist of working through
 code examples as well as question and answer sessions for homeworks and projects.
 Lab attendance is mandatory. Using your own computer is recommended but computers
 are provided in the lab.
@@ -63,7 +65,7 @@ finding answers much easier. Students are encouraged
 and expected to assist one another with technical problems, both in and out of class.
 Diagnosing problems in others' code is a very effective way to improve your understanding of programming.
 
-#### [Mailing List](mailto:mailing_list@uw.edu)
+#### [Mailing List](mailto:`mailing_list_address`)
 
 This course features a mailing list for asking questions. I encourage
 you to use this list as your primary means of answering *long technical questions*. 
@@ -71,7 +73,7 @@ To use the mailing list, address your email to `mailing_list_address`
 and it will be sent to the instructor and all students in the class. *Unless you specifically
 request otherwise*, emailed questions directed to me ([clanfear@uw.edu](mailto:clanfear@uw.edu)) that may be useful to others in the class will be answered with a response to the class mailing list. 
 
-#### [Slack Channel](https://slack_channel.slack.com)
+#### [Slack Channel](https://`slack_channel`.slack.com)
 
 We will also use a Slack channel for communication.
 You may ask and answer questions in the Slack channel instead of the mailing list.
