@@ -3,7 +3,7 @@ layout: default
 ---
 
 # SOC 321
-## Data Science and Statistics for the Social Sciences
+## Data Science and Statistics for the Social Sciences I
 ### University of Washington
 
 ## Important links
