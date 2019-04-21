@@ -62,9 +62,8 @@ available after the term has ended as a reference.
 ### Labs
 Labs are in [`lab_room`](https://www.washington.edu/maps/#!/sav)
 on `lab_day` from `lab_start` to `lab_end`. Labs will consist of working through
-code examples as well as question and answer sessions for homeworks and projects.
-Lab attendance is mandatory. Using your own computer is recommended but computers
-are provided in the lab.
+lab notebooks as well as question and answer sessions for homeworks and projects.
+Using your own computer is recommended but computers are provided in the lab.
 
 ### Extra Help
 
@@ -100,12 +99,13 @@ There are 100 points available in the course, with the following breakdown:
 | Code Review            |   4    |      3      |    12        |
 | Lab Notebook           |   9    |      2      |    18        |
 | Project Lightning Talk |   1    |     15      |    15        |
-| Project Report         |   1    |     30      |    30        |
+| Project Report Draft   |   1    |     10      |    10        |
+| Project Report Final   |   1    |     20      |    20        |
 
 A score of at least 95 will guarantee a 4.0 in the course. Every 2.5 points below 95 
 will correspond to a .1 difference in the final grade (e.g. 90/100 is a 3.8).
 
-### [Homework](https://clanfear.github.io/SOC321/docs/homework.html)
+### [Homework](null)
 These must be turned in as knitted markdown documents which we will learn to create 
 in the first weekand for which
 templates are provided. Homework will be handed in as *both* a knitted HTML file
@@ -118,7 +118,7 @@ your code yourself and do not copy work wholesale. You can learn a lot from repl
 others' code but you will learn nothing if you copy it without knowing how it works.
 Use of "found" or "borrowed" code is permitted only provided a citation.
 
-### [Code Review](https://clanfear.github.io/SOC321/docs/code_review.html)
+### [Code Review](null)
 Each week an assignment is due, students will be randomly assigned to review another
 student's assignment following the same rubric. They will be expected to provide
 constructive feedback and commentary if something new was learned; reading others' 
@@ -131,7 +131,9 @@ In each lab, students will complete exercises in an R Markdown document. These e
 will be turned in as both a knitted HTML document and the original R Markdown (.Rmd) file at the end of lab.
 Each notebook is worth 2 points and is evaluated as complete (2), at least 50% complete (1), or less than 50% complete (0).
 
-### [Projects](https://clanfear.github.io/SOC321/docs/project.html)
+> This is about 50% an attendance check.
+
+### [Projects](null)
 Students will choose from a diverse series of quantitative data sets and prepare an analytical report.
 Projects will combine descriptive statistics, visualization, and statistical models in 
 a readable format for the general population. The project features two components:
@@ -147,19 +149,27 @@ a general audience.
 
 #### Project Report
 
-Project reports will be brief summaries of your research projects. 
-They will include: 
+Project reports will be brief summaries of your research projects. These will be similar
+in style and content to a research memo in a workplace or an exploratory research proposal
+for a graduate-level project. They will include: 
 
-* An brief introduction describing the research question with a brief 
+* A brief introduction describing the research question with a short 
 literature review
 * A methods section describing analysis techniques
 * A results section with appropriate visual and tabular results with interpretations
-* A brief conclusion
+* A brief (1-2 &#182;)conclusion summarizing the project
 
 Project reports will be submitted as two files like homework assignments: (1) a knitted HTML file with no
 visible raw code and (2) an R Markdown file with all necessary code
 embedded in the document. Reports must be 
-between 2500 and 5000 words and feature between 2 and 5 figures or tables. 
+between 2500 and 5000 words and feature between 2 and 5 figures or tables. You will 
+turn in a preliminary draft in Week 8 which includes the introduction, a proposal
+for the methods section, and some exploratory results from the data. You will receive
+detailed feedback on these drafts.
+
+> I will probably make this a group assignment, but I am wary of free-riding. Maybe
+> limit group sizes to 2-3. Depends on size of class. I don't want to give thorough
+> feedback on 30 projects.
 
 ## Course Texts
 
@@ -204,11 +214,11 @@ R or RStudio in office hours or over email or Slack.
 
 ## Course Outline
 
-> This course outline is preliminary and based on a schedule with two ~80 minute lectures and an
+> This course outline is preliminary and based on a schedule with two ~80 minute lectures and a
 > 50-minute lab each week. Lectures will cover both statistical topics and topics in R programming.
-> Programming content covered is equivalent to the first half of my 1 credit R course.
+> Programming content covered is equivalent to the first half of CSSS508 with new material on simulation and resampling.
 > Statistical content will focus on the linear model as general approach.
-> Labs will be used to apply concepts from both in a collaborative environment using
+> Labs will be used to apply statistical and programming concepts in a collaborative environment using
 > a mix of live coding, student-directed questions, and structured exercises.
 
 | Week |     Statistical Topic     |        R Topic         | Reading |
@@ -220,6 +230,6 @@ R or RStudio in office hours or over email or Slack.
 |  5   |  Bivariate Linear Model   |     Linear Models      |   TBA   |
 |  6   |  Linear Model Hypotheses  |   R Data Structures    |   TBA   |
 |  7   | Multivariate Linear Model |   Data Import/Export   |   TBA   |
-|  8   |     Model Assumptions     |     Model Results      |   TBA   |
+|  8   |     Model Assumptions     |  Presenting Results    |   TBA   |
 |  9   |     Functional Forms      |   Project Management   |   TBA   |
 |  10  |      Lightning Talks      |    Project Reports     |   TBA   |
