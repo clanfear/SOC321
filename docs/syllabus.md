@@ -83,13 +83,13 @@ an invitation in the first week of class.
 
 There are 100 points available in the course, with the following breakdown:
 
-| Item          | Number | Points Each | Points Total |
-|---------------|--------|-------------|--------------|
-| Homework      |   5    |      5      |    25        |
-| Code Review   |   4    |      3      |    12        |
-| Lab Notebook  |   9    |      2      |    18        |
-| Project Talk  |   1    |     15      |    15        |
-| Project Final |   1    |     30      |    30        |
+| Item                   | Number | Points Each | Points Total |
+|:----------------------:|:------:|:-----------:|:------------:|
+| Homework               |   5    |      5      |    25        |
+| Code Review            |   4    |      3      |    12        |
+| Lab Notebook           |   9    |      2      |    18        |
+| Project Lightning Talk |   1    |     15      |    15        |
+| Project Report         |   1    |     30      |    30        |
 
 A score of at least 95 will guarantee a 4.0 in the course. Every 2.5 points below 95 
 will correspond to a .1 difference in the final grade (e.g. 90/100 is a 3.8).
@@ -115,12 +115,17 @@ code is an important skill and you will write better code knowing others will se
 These reviews will be due midnight prior to the following class meeting.
 Each peer review is worth 3 points and will be evaluated using the rubric on the code review page.
 
+### [Lab Notebook](null)
+In each lab, students will complete exercises in an R Markdown document. These exercises
+will be turned in as both a knitted HTML document and the original R Markdown (.Rmd) file at the end of lab.
+Each notebook is worth 2 points and is evaluated as complete (2), at least 50% complete (1), or less than 50% complete (0).
+
 ### [Projects](https://clanfear.github.io/SOC321/docs/project.html)
 Students will choose from a diverse series of quantitative data sets and prepare an analytical report.
 Projects will combine descriptive statistics, visualization, and statistical models in 
 a readable format for the general population. The project features two components:
 (1) a 3-minute lightning talk presentation in the last week of class and (2) a written report to be turned in
-by `project_deadline`. Projects are worth 30 points and will be evaluated using the rubric on the projects page.
+by `project_deadline`.
 
 #### Lightning Talk
 
@@ -188,9 +193,10 @@ R or RStudio in office hours or over email or Slack.
 
 ## Course Outline
 
-This course outline is preliminary and based on a schedule with one or two lectures and a
-lab each week. All lab content builds continuously on the previous week, so the
-primary topic is introduced in the context of---and using---prior material.
+> This course outline is preliminary and based on a schedule with two lectures and a
+> lab each week. Lectures will cover both statistical topics and topics in R programming.
+> Labs will be used to apply concepts from both in a collaborative environment using
+> a mix of live coding, student-directed questions, and structured exercises.
 
 | Week |     Statistical Topic     |        R Topic         | Reading |
 |:----:|:-------------------------:|:----------------------:|:-------:|
