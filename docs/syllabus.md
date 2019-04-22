@@ -177,6 +177,9 @@ detailed feedback on these drafts.
 The textbooks for this course are all available freely online as digital versions.
 Print versions are available---and affordable---if desired.
 
+> I am considering using [*Statistical Thinking for the 21st Century*](http://statsthinking21.org/index.html)
+> by Russell A. Poldrack as a primary text, but must review it in depth first.
+
 * *[R for Data Science](http://r4ds.had.co.nz/index.html)* by Garrett Grolemund and Hadley Wickham,
 a great general introduction to R programming for data management and analysis.
 
@@ -184,6 +187,7 @@ a great general introduction to R programming for data management and analysis.
 
 * *[Data Visualization: A Practical Introduction](http://socviz.co/)* by Kieran Healy, an introduction
 to visualizing data and R programming.
+
 
 Additional recommended readings will be posted on the website over the term.
 
