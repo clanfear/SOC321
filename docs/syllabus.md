@@ -1,6 +1,6 @@
 
 # CSSS/SOC/STAT 321
-## Case-Based Quantitative Social Science I
+## Data Science and Statistics for the Social Sciences I
 ### University of Washington
 
 Instructor: [Charles Lanfear](mailto:clanfear@uw.edu)
