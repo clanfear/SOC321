@@ -1,6 +1,6 @@
 
 # CSSS/SOC/STAT 321
-## Data Science and Statistics for the Social Sciences I
+## Case-Based Quantitative Social Science I
 ### University of Washington
 
 Instructor: [Charles Lanfear](mailto:clanfear@uw.edu)
@@ -27,23 +27,7 @@ data analysis using programming and statistics. General topics we will focus on 
 * Drawing conclusions from data using statistics
 * Communicating findings visually and verbally
 
-By the end of this course you should feel *confident* conducting basic quantitative
-research. The statistical component of the class
-focuses on applying two statistical techniques---linear regression and randomization---to a wide 
-range of common empirical questions. While the programming component focuses on the R language, the concepts you learn will be 
-applicable to other programming languages and research in general, such as logic, 
-algorithmic thinking, and project management. 
-
-> This course is based on combining two simple and modern approaches to inference in data science and (computational) statistics:
->
-> 1. (Almost) everything is a linear model as described elegantly by [Lindeløv](https://lindeloev.github.io/tests-as-linear/)
-> 2. There is only one (statistical) test by [Allen Downey](http://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html)
-> 
-> The idea here is we can leverage computing to teach students a flexible, general
-> approach to answering empirical questions just using variations on linear models
-> and computing uncertainty with simulation and resampling. Students will learn core statistical
-> concepts deeply and intuitively rather than be buried under small details. This
-> approach appears to be similar to that of [Cobb](https://escholarship.org/uc/item/6hb3k0nz).
+By the end of this course you should feel *confident* conducting basic research with quantitative data. While the programming component focuses on the R language, the concepts you learn will be applicable to other programming languages and research in general, such as logic, algorithmic thinking, and project management. 
 
 ### Prerequisites
 No specific courses are required and I anticipate this will be the first course in 
@@ -96,12 +80,11 @@ There are 100 points available in the course, with the following breakdown:
 
 | Item                   | Number | Points Each | Points Total |
 |:----------------------:|:------:|:-----------:|:------------:|
-| Homework               |   5    |      5      |    25        |
-| Code Review            |   4    |      3      |    12        |
-| Lab Notebook           |   9    |      2      |    18        |
-| Project Lightning Talk |   1    |     15      |    15        |
+| Homework               |   5    |      6      |    30        |
+| Code Review            |   5    |      3      |    15        |
+| Lab Notebook           |  10    |      2      |    20        |
 | Project Report Draft   |   1    |     10      |    10        |
-| Project Report Final   |   1    |     20      |    20        |
+| Project Report Final   |   1    |     25      |    25        |
 
 A score of at least 95 will guarantee a 4.0 in the course. Every 2.5 points below 95 
 will correspond to a .1 difference in the final grade (e.g. 90/100 is a 3.8).
@@ -125,32 +108,19 @@ student's assignment following the same rubric. They will be expected to provide
 constructive feedback and commentary if something new was learned; reading others' 
 code is an important skill and you will write better code knowing others will see it.
 These reviews will be due midnight prior to the following class meeting.
-Each peer review is worth 3 points and will be evaluated using the rubric on the code review page.
+Each code review is worth 3 points and will be evaluated using the rubric on the [code review](null) page.
 
 ### [Lab Notebook](null)
 In each lab, students will complete exercises in an R Markdown document. These exercises
 will be turned in as both a knitted HTML document and the original R Markdown (.Rmd) file at the end of lab.
 Each notebook is worth 2 points and is evaluated as complete (2), at least 50% complete (1), or less than 50% complete (0).
 
-> This is about 50% an attendance check.
 
-### [Projects](null)
-Students will choose from a diverse series of quantitative data sets and prepare an analytical report.
-Projects will combine descriptive statistics, visualization, and statistical models in 
-a readable format for the general population. The project features two components:
-(1) a 3-minute lightning talk presentation in the last week of class and (2) a written report to be turned in
-by `project_deadline`.
+### [Project Reports](null)
 
-#### Lightning Talk
-
-Lightning talks are 3-minute presentations accompanied by a single slide. They 
-are an increasingly common format for presenting research in professional settings.
-You will be expected to concisely summarize your research question, research design, and findings for
-a general audience. 
-
-#### Project Report
-
-Project reports will be brief summaries of your research projects. These will be similar
+Groups of 2 to 4 students will choose from a diverse series of quantitative data sets
+and prepare an analytical report. Projects will combine descriptive statistics, visualization, and statistical models in 
+a readable format for the general population. These will be similar
 in style and content to a research memo in a workplace or an exploratory research proposal
 for a graduate-level project. They will include: 
 
@@ -158,7 +128,7 @@ for a graduate-level project. They will include:
 literature review
 * A methods section describing analysis techniques
 * A results section with appropriate visual and tabular results with interpretations
-* A brief (1-2 &#182;)conclusion summarizing the project
+* A brief (1-2 &#182;) conclusion summarizing the project
 
 Project reports will be submitted as two files like homework assignments: (1) a knitted HTML file with no
 visible raw code and (2) an R Markdown file with all necessary code
@@ -166,24 +136,18 @@ embedded in the document. Reports must be
 between 2500 and 5000 words and feature between 2 and 5 figures or tables. You will 
 turn in a preliminary draft in Week 8 which includes the introduction, a proposal
 for the methods section, and some exploratory results from the data. You will receive
-detailed feedback on these drafts.
-
-> I will probably make this a group assignment, but I am wary of free-riding. Maybe
-> limit group sizes to 2-3. Depends on size of class. I don't want to give thorough
-> feedback on 30 projects.
+detailed feedback and a code review on these drafts.
 
 ## Course Texts
 
-The textbooks for this course are all available freely online as digital versions.
-Print versions are available---and affordable---if desired.
+The required text for this course is Kosuke Imai's [Quantitative Social Science](http://qss.princeton.press/student-resources-for-quantitative-social-science/). It is hands-on introduction to data analysis and statistics which integrates R code, interactive tutorials, and real data analysis projects. We will supplement this textbook with [Jeff Arnold's `tidyverse` adaption of the code used in the book](https://jrnold.github.io/qss-tidy/).
 
-> I am considering using [*Statistical Thinking for the 21st Century*](http://statsthinking21.org/index.html)
-> by Russell A. Poldrack as a primary text, but must review it in depth first.
+There are many free texts and resources which may offer alternative pespectives on the content we will cover. Here are some suggestions:
 
 * *[R for Data Science](http://r4ds.had.co.nz/index.html)* by Garrett Grolemund and Hadley Wickham,
 a great general introduction to R programming for data management and analysis.
 
-* *[Introductory Statistics with Randomization and Simulation](https://www.openintro.org/stat/index.php?stat_book=isrs)* by David Diez, Christopher Barr, and Mine Çetinkaya-Rundel, a free and open-source introduction to statistics using R. This text focuses on programming over mathematical derivation.
+* *[OpenIntro Statistics](https://www.openintro.org/stat/index.php?stat_book)* by David Diez, Christopher Barr, and Mine Çetinkaya-Rundel, a free and open-source introduction to statistics using R.
 
 * *[Data Visualization: A Practical Introduction](http://socviz.co/)* by Kieran Healy, an introduction
 to visualizing data and R programming.
@@ -208,9 +172,7 @@ been asked and answered here, and if not, this is the place to ask.
 ## Software
 This is a course in programming and statistics using R. You are welcome
 to use lab computers, however R and RStudio are free software, so you are encouraged
-to use your own computer for familiarity and accessibility. In terms of R packages, 
-this course will emphasize the [`tidyverse`](https://tidyverse.org) family of 
-packages for manipulating and displaying data. You can acquire R from the
+to use your own computer for familiarity and accessibility. You can acquire R from the
 [Comprehensive R Archive Network (CRAN)](https://cran.rstudio.com/) and RStudio from
 the [RStudio home page](https://www.rstudio.com/products/rstudio/download/) (you want
 the free RStudio desktop version). [Installation instructions may be found here](https://clanfear.github.io/SOC321/docs/installation.html).
@@ -219,22 +181,20 @@ R or RStudio in office hours or over email or Slack.
 
 ## Course Outline
 
-> This course outline is preliminary and based on a schedule with two ~80 minute lectures and a
-> 50-minute lab each week. Lectures will cover both statistical topics and topics in R programming.
-> Programming content covered is equivalent to the first half of CSSS508 with new material on simulation and resampling.
-> Statistical content will focus on the linear model as general approach.
-> Labs will be used to apply statistical and programming concepts in a collaborative environment using
-> a mix of live coding, student-directed questions, and structured exercises.
+Lectures will cover both R programming and statistical concepts. The focus is on 
+identifying problems then applying an appropriate method using computation and
+statistics. Labs will be used to apply quantitative social science concepts in a
+collaborative environment using structured exercises.
 
-| Week |     Statistical Topic     |        R Topic         | Reading |
-|:----:|:-------------------------:|:----------------------:|:-------:|
-|  1   |        Math Review        | RStudio and R Markdown |   TBA   |
-|  2   |  Descriptive Statistics   |    Visualizing Data    |   TBA   |
-|  3   |        Probability        |   Manipulating Data    |   TBA   |
-|  4   |    Hypothesis Testing     |       Simulation       |   TBA   |
-|  5   |  Bivariate Linear Model   |     Linear Models      |   TBA   |
-|  6   |  Linear Model Hypotheses  |   R Data Structures    |   TBA   |
-|  7   | Multivariate Linear Model |   Data Import/Export   |   TBA   |
-|  8   |     Model Assumptions     |  Presenting Results    |   TBA   |
-|  9   |     Functional Forms      |   Project Management   |   TBA   |
-|  10  |      Lightning Talks      |    Project Reports     |   TBA   |
+| Week |          Topic            | Reading | Due |
+|:----:|:-------------------------:|:-------:|:---:|
+|  1   |        Causality          |   TBA   |     |
+|  2   |        Causality          |   TBA   | HW1 |
+|  3   |       Measurement         |   TBA   |     |
+|  4   |       Measurement         |   TBA   | HW2 |
+|  5   |       Prediction          |   TBA   |     |
+|  6   |       Prediction          |   TBA   | HW3 |
+|  7   |       Probability         |   TBA   |     |
+|  8   |       Probability         |   TBA   | HW4 |
+|  9   |       Uncertainty         |   TBA   |     |
+|  10  |       Uncertainty         |   TBA   | HW5 |
