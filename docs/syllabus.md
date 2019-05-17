@@ -140,7 +140,7 @@ detailed feedback and a code review on these drafts.
 
 ## Course Texts
 
-The required text for this course is Kosuke Imai's [Quantitative Social Science](http://qss.princeton.press/student-resources-for-quantitative-social-science/). It is hands-on introduction to data analysis and statistics which integrates R code, interactive tutorials, and real data analysis projects. We will supplement this textbook with [Jeff Arnold's `tidyverse` adaption of the code used in the book](https://jrnold.github.io/qss-tidy/).
+The required text for this course is Kosuke Imai's [*Quantitative Social Science*](http://qss.princeton.press/student-resources-for-quantitative-social-science/). It is hands-on introduction to data analysis and statistics which integrates R code, interactive tutorials, and real data analysis projects. We will supplement this textbook with [Jeff Arnold's `tidyverse` adaption of the code used in the book](https://jrnold.github.io/qss-tidy/).
 
 There are many free texts and resources which may offer alternative pespectives on the content we will cover. Here are some suggestions:
 
