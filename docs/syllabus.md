@@ -19,7 +19,7 @@ Instructor: [Charles Lanfear](mailto:clanfear@uw.edu)
 [Savery 255](https://www.washington.edu/maps/#!/sav): `office_day` TBA
 
 ## Overview
-This course is intended as an accessible, holistic introduction to quantitative 
+This course is intended as an accessible, holistic, and case-based introduction to quantitative 
 data analysis using programming and statistics. General topics we will focus on include:
 
 * Cleaning and preparing data for analyses
@@ -94,13 +94,13 @@ These must be turned in as knitted markdown documents which we will learn to cre
 in the first weekand for which
 templates are provided. Homework will be handed in as *both* a knitted HTML file
 and an R Markdown document with all required code to produce the output document.
-They will be graded on a 0 to 5 point scale based
+They will be graded on a 0 to 6 point scale based
 on a simple *effort-focused* rubric found on the homework page. These are designed
 first and foremost to develop skills rather than "prove" you have learned concepts. 
 I encourage you to communicate and work together, so long as you write and explain
 your code yourself and do not copy work wholesale. You can learn a lot from replicating
 others' code but you will learn nothing if you copy it without knowing how it works.
-Use of "found" or "borrowed" code is permitted only provided a citation.
+Use of "found" or "borrowed" code is permitted only provided a citation (a link is sufficient).
 
 ### [Code Review](null)
 Each week an assignment is due, students will be randomly assigned to review another
@@ -108,7 +108,7 @@ student's assignment following the same rubric. They will be expected to provide
 constructive feedback and commentary if something new was learned; reading others' 
 code is an important skill and you will write better code knowing others will see it.
 These reviews will be due midnight prior to the following class meeting.
-Each code review is worth 3 points and will be evaluated using the rubric on the [code review](null) page.
+Each code review is worth 5 points and will be evaluated using the rubric on the [code review](null) page.
 
 ### [Lab Notebook](null)
 In each lab, students will complete exercises in an R Markdown document. These exercises
@@ -134,7 +134,7 @@ Project reports will be submitted as two files like homework assignments: (1) a 
 visible raw code and (2) an R Markdown file with all necessary code
 embedded in the document. Reports must be 
 between 2500 and 5000 words and feature between 2 and 5 figures or tables. You will 
-turn in a preliminary draft in Week 8 which includes the introduction, a proposal
+turn in a preliminary draft at the start of Week 9 which includes the introduction, a proposal
 for the methods section, and some exploratory results from the data. You will receive
 detailed feedback and a code review on these drafts.
 
@@ -186,15 +186,29 @@ identifying problems then applying an appropriate method using computation and
 statistics. Labs will be used to apply quantitative social science concepts in a
 collaborative environment using structured exercises.
 
-| Week |          Topic            | Reading | Due |
-|:----:|:-------------------------:|:-------:|:---:|
-|  1   |        Causality          |   TBA   |     |
-|  2   |        Causality          |   TBA   | HW1 |
-|  3   |       Measurement         |   TBA   |     |
-|  4   |       Measurement         |   TBA   | HW2 |
-|  5   |       Prediction          |   TBA   |     |
-|  6   |       Prediction          |   TBA   | HW3 |
-|  7   |       Probability         |   TBA   |     |
-|  8   |       Probability         |   TBA   | HW4 |
-|  9   |       Uncertainty         |   TBA   |     |
-|  10  |       Uncertainty         |   TBA   | HW5 |
+| Week |          Topic            | Reading | Due   |
+|:----:|:-------------------------:|:-------:|:-----:|
+|  1   |        Causality          |   TBA   |       |
+|  2   |        Causality          |   TBA   | HW1   |
+|  3   |       Measurement         |   TBA   |       |
+|  4   |       Measurement         |   TBA   | HW2   |
+|  5   |       Prediction          |   TBA   |       |
+|  6   |       Prediction          |   TBA   | HW3   |
+|  7   |       Probability         |   TBA   |       |
+|  8   |       Probability         |   TBA   | HW4   |
+|  9   |       Uncertainty         |   TBA   | Report Draft      |
+|  10  |       Uncertainty         |   TBA   | HW5   |
+|Finals|        None               |   None  | Report Final   |
+
+## Accomodation
+
+Your experience in this class is important to me. If you have
+already established accommodations with Disability Resources for Students (DRS), please
+communicate your approved accommodations to me at your earliest convenience so we can
+discuss your needs in this course. If you have non-disability related concerns 
+for participating in this class--such as difficulty with course materials or the pace of the course--
+please contact me. I want this course to be maximally useful and accessible to all students.
+
+## Academic Misconduct
+
+As a University of Washington student, you are bound by the university's [student conduct policy](http://www.washington.edu/admin/rules/policies/SGP/SPCH209.html). Academic misconduct, including plagiarism--which includes copying any material from any source including fellow students without attribution--will be referred to the Community Standards & Student Conduct office. If you are not sure a particular practice is acceptable, please contact me via email or in office hours.
