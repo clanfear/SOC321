@@ -1,0 +1,72 @@
+---
+title: "SOC321, Lecture 2"
+subtitle: "Introduction"
+author: "Chuck Lanfear"
+date: "January 4, 2020<br>Updated: `r gsub(' 0', ' ', format(Sys.Date(), format='%b %d, %Y'))`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: tomorrow-night-bright
+      highlightLines: true
+      countIncrementalSlides: false
+      titleSlideClass: ["center","top"]
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(comment = "##")
+```
+
+```{r xaringan-themer, include = FALSE}
+library(xaringanthemer)
+source("../soc321css.R")
+```
+
+Today
+
+Causality
+
+`qss` package
+`qss.student` package
+`swirl` and `qss-swirl`
+
+
+```{r}
+install.packages("devtools")
+```
+
+
+# `qss` Package
+
+```{r}
+install_github("kosukeimai/qss-package", build_vignettes = TRUE)
+```
+
+# Exploring `qss`
+
+```{r}
+data(package = "qss")
+data(elections, package = "qss") # load the elections data
+vignette(package = "qss") # list all vignettes
+browseVignettes("qss") # list vignettes and R code
+vignette("causality", package = "qss") # show the vignette for the Causality chapter
+```
+
+
+# `qss-student` Package
+
+```{r}
+devtools::install_github("conjugateprior/qss.student")
+```
+
+# Swirl
+
+```{r}
+install.packages("swirl")
+library(swirl) # load the swirl package
+install_course_github("kosukeimai", "qss-swirl")
+swirl()
+```
+

@@ -19,6 +19,17 @@ Instructor: [Charles Lanfear](mailto:clanfear@uw.edu)
 [Savery 255](https://www.washington.edu/maps/#!/sav): `office_day` TBA
 
 ## Overview
+
+Imai:
+
+"Would universal health insurance improve the health of the poor? Do patterns of arrests in US
+cities show evidence of racial proling? What accounts for who votes and their choice of candidates?
+This course will teach students how to address these and other social science questions by analyzing
+quantitative data. The course introduces basic principles of statistical inference and programming
+skills for data analysis. The goal is to provide students with the foundation necessary to analyze
+data in their own research and to become critical consumers of statistical claims made in the news
+media, in policy reports, and in academic research."
+
 This course is intended as an accessible, holistic, and case-based introduction to quantitative 
 data analysis using programming and statistics. General topics we will focus on include:
 
@@ -48,7 +59,8 @@ available after the term has ended as a reference.
 Labs are in [`lab_room`](https://www.washington.edu/maps/#!/sav)
 on `lab_day` from `lab_start` to `lab_end`. Labs will consist of working through
 lab notebooks as well as question and answer sessions for homeworks and projects.
-Using your own computer is recommended but computers are provided in the lab.
+Using your own computer is recommended but computers are provided in the lab. Lab 
+attendance is mandatory as lab notebooks must be completed during lab.
 
 ### Extra Help
 
@@ -80,19 +92,19 @@ There are 100 points available in the course, with the following breakdown:
 
 | Item                   | Number | Points Each | Points Total |
 |:----------------------:|:------:|:-----------:|:------------:|
-| Homework               |   5    |      6      |    30        |
-| Code Review            |   5    |      3      |    15        |
-| Lab Notebook           |  10    |      2      |    20        |
-| Project Report Draft   |   1    |     10      |    10        |
-| Project Report Final   |   1    |     25      |    25        |
+| Participation
+| Online Assignments
+| Problem Sets
+| Exams?
+| Project
 
 A score of at least 95 will guarantee a 4.0 in the course. Every 2.5 points below 95 
 will correspond to a .1 difference in the final grade (e.g. 90/100 is a 3.8).
 
-### [Homework](null)
+### [Problem Sets](null)
 These must be turned in as knitted markdown documents which we will learn to create 
 in the first weekand for which
-templates are provided. Homework will be handed in as *both* a knitted HTML file
+templates are provided. Problem Sets will be handed in as *both* a knitted HTML file
 and an R Markdown document with all required code to produce the output document.
 They will be graded on a 0 to 6 point scale based
 on a simple *effort-focused* rubric found on the homework page. These are designed
@@ -101,6 +113,11 @@ I encourage you to communicate and work together, so long as you write and expla
 your code yourself and do not copy work wholesale. You can learn a lot from replicating
 others' code but you will learn nothing if you copy it without knowing how it works.
 Use of "found" or "borrowed" code is permitted only provided a citation (a link is sufficient).
+If you collaborate with others, limit it to a total group size of THREE (including yourself) 
+and list your collaborators on the front page of your problem set. 
+Problem sets containing uncited code from other source will be treated as plagiarism. 
+Evidence of collaboration with others without attribution--or in groups larger than THREE--will result in a 0 for the
+assignment for everyone with the shared code.
 
 ### [Code Review](null)
 Each week an assignment is due, students will be randomly assigned to review another
