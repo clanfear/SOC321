@@ -88,27 +88,30 @@ an invitation in the first week of class.
 
 ## Course Requirements
 
-There are 100 points available in the course, with the following breakdown:
+Grades will be assessed with the following breakdown:
 
-| Item                   | Number | Points Each | Points Total |
-|:----------------------:|:------:|:-----------:|:------------:|
-| Participation
-| Online Assignments
-| Problem Sets
-| Exams?
-| Project
+| Item                   | Number | Percent of Grade |
+|:----------------------:|:------:|:----------------:|
+| Problem Sets           |  5     |     30           |
+| Lab Notebooks          |  8     |     20           |
+| `swirl` Assignments    |  8     |     10           |
+| Project Proposal       |  1     |     10           |
+| Project Report         |  1     |     20           |
 
-A score of at least 95 will guarantee a 4.0 in the course. Every 2.5 points below 95 
+A score of at least 95% will guarantee a 4.0 in the course. Every 2.5 percentage points below 95 
 will correspond to a .1 difference in the final grade (e.g. 90/100 is a 3.8).
 
 ### [Problem Sets](null)
+
 These must be turned in as knitted markdown documents which we will learn to create 
 in the first weekand for which
-templates are provided. Problem Sets will be handed in as *both* a knitted HTML file
-and an R Markdown document with all required code to produce the output document.
-They will be graded on a 0 to 6 point scale based
-on a simple *effort-focused* rubric found on the homework page. These are designed
+templates are provided.  These are designed
 first and foremost to develop skills rather than "prove" you have learned concepts. 
+Problem Sets will be uploaded to Canvas as *both* a knitted HTML file
+and an R Markdown document with all required code to produce the output document.
+They will be graded on a 0 to 5 point scale based
+on a simple *effort-focused* rubric found on the homework page. 
+
 I encourage you to communicate and work together, so long as you write and explain
 your code yourself and do not copy work wholesale. You can learn a lot from replicating
 others' code but you will learn nothing if you copy it without knowing how it works.
@@ -119,18 +122,18 @@ Problem sets containing uncited code from other source will be treated as plagia
 Evidence of collaboration with others without attribution--or in groups larger than THREE--will result in a 0 for the
 assignment for everyone with the shared code.
 
-### [Code Review](null)
-Each week an assignment is due, students will be randomly assigned to review another
-student's assignment following the same rubric. They will be expected to provide
-constructive feedback and commentary if something new was learned; reading others' 
-code is an important skill and you will write better code knowing others will see it.
-These reviews will be due midnight prior to the following class meeting.
-Each code review is worth 5 points and will be evaluated using the rubric on the [code review](null) page.
-
 ### [Lab Notebook](null)
+
 In each lab, students will complete exercises in an R Markdown document. These exercises
 will be turned in as both a knitted HTML document and the original R Markdown (.Rmd) file at the end of lab.
 Each notebook is worth 2 points and is evaluated as complete (2), at least 50% complete (1), or less than 50% complete (0).
+The course has 9 labs available but students are required to complate any 8 labs. Completing all 9 labs will yield up to 2.5 percentage points of extra credit.
+
+### [`swirl` Assignments](NULL)
+
+Students will complete interactive R tutorials outside of class using the `swirl` package. 
+These tutorials give students the opportunity to learn R commands at their own pace in
+a structured environment. Each assignment is evaluated only as complete or incomplete. 
 
 
 ### [Project Reports](null)
@@ -151,9 +154,9 @@ Project reports will be submitted as two files like homework assignments: (1) a 
 visible raw code and (2) an R Markdown file with all necessary code
 embedded in the document. Reports must be 
 between 2500 and 5000 words and feature between 2 and 5 figures or tables. You will 
-turn in a preliminary draft at the start of Week 9 which includes the introduction, a proposal
+turn in a project proposal at the start of Week 9 which includes the introduction, a proposal
 for the methods section, and some exploratory results from the data. You will receive
-detailed feedback and a code review on these drafts.
+detailed feedback on your proposal. Proposals and final reports will be evaluated using the rubric found on the project report page.
 
 ## Course Texts
 
@@ -216,6 +219,13 @@ collaborative environment using structured exercises.
 |  9   |       Uncertainty         |   TBA   | Report Draft      |
 |  10  |       Uncertainty         |   TBA   | HW5   |
 |Finals|        None               |   None  | Report Final   |
+
+## Late Work Policy
+
+You are permitted to submit one problem set up to four days late without penalty with no explanation required.
+Other late assignments will be penalized by 25% per day without official documentation of an unavoidable cause
+for absence or inability to complete the assigngment on time. Valid unavoidable causes are limited to those
+described in [Student Governance Policies Chapter 112, Subsection 1.B](http://www.washington.edu/admin/rules/policies/SGP/ScholRegCH112.html).
 
 ## Accomodation
 

@@ -37,19 +37,17 @@ QSS-swirl
 
 # Course Goals
 
+
+
+* Learn core statistical concepts
+
+--
+
 * Develop intermediate data management and analysis skills in R
 
 --
 
-* Learn core statistical methods
-
---
-
-* Learn basic programming
-
---
-
-* Introduce reproducible research practices
+* Introduce reproducible research
 
 --
 
