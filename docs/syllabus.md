@@ -92,7 +92,7 @@ Grades will be assessed with the following breakdown:
 
 | Item                   | Number | Percent of Grade |
 |:----------------------:|:------:|:----------------:|
-| Problem Sets           |  5     |     30           |
+| Problem Sets           |  5     |     40           |
 | Lab Notebooks          |  8     |     20           |
 | `swirl` Assignments    |  8     |     10           |
 | Project Proposal       |  1     |     10           |
